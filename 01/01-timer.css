@@ -1,0 +1,30 @@
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100px;
+}
+
+.value,
+.label {
+  width: 100%;
+  text-align: center;
+}
+
+.value {
+  font-size: 2em;
+  margin-bottom: 5px;
+}
+
+.label {
+  font-size: 1em;
+}
+
+.timer {
+  display: flex;
+  gap: 10px;
+}
+
+#datetime-picker {
+  width: 800px;
+}
